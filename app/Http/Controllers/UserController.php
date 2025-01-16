@@ -9,6 +9,11 @@ use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
+    /**
+     * usr
+     *
+     * @return void
+     */
     public function user()
     {
         $user = Auth::user();
